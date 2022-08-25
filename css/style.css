@@ -137,6 +137,23 @@ h2 {
     font-size: 1.2rem;
 }
 
+.cv {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 0.2rem 0.6rem;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.349);
+    font-weight: 500;
+}
+
+.cv:hover {
+    background-color: var(--second-color);
+    transition-duration: 0.3s;
+}
+
 .about-container {
     position: relative;
 }
@@ -150,12 +167,15 @@ h2 {
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
-    background-color: #000000a6;
+    background-color: #000000b8;
+}
+
+.linked-git-icons a {
+    display: flex;
 }
 
 .about-icons {
     height: 33px;
-    margin-right: 0.5rem;
     fill: var(--main-color);
 }
 
