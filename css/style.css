@@ -112,6 +112,7 @@ header {
 }
 
 #about {
+    position: relative;
     background-color: var(--main-medium);
     color: var(--main-light);
 }
@@ -160,16 +161,16 @@ h2 {
 }
 
 .linked-git-icons {
-    padding: 0.7rem;
+    padding: 0.4rem;
     position: absolute;
     z-index: 2;
     display: flex;
     height: 100%;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
     justify-content: center;
-    background-color: #000000b9;
-    backdrop-filter: blur(2px);
+    background-color: #00000091;
+    backdrop-filter: blur(3px);
 }
 
 .linked-git-icons a {
@@ -177,8 +178,8 @@ h2 {
 }
 
 .about-icons {
-    height: 33px;
-    fill: var(--main-color);
+    height: 30px;
+    fill: var(--main-light);
 }
 
 .about-icons:hover {
@@ -190,7 +191,7 @@ h2 {
     background-color: var(--main-gray);
     color: var(--main-light);
     padding-bottom: 0.5rem;
-    background: linear-gradient(0deg, rgba(57,62,70,1) 0%, rgba(32,32,32,1) 100%);
+    background: linear-gradient(0deg, rgba(57, 62, 70, 1) 0%, rgba(32, 32, 32, 1) 100%);
 }
 
 h3 {
@@ -207,7 +208,7 @@ h3 {
     background-color: var(--main-dark);
     overflow: hidden;
     border-radius: 0.4rem;
-
+    border: 1px solid #ffffff24;
 }
 
 .project:first-of-type {
@@ -290,7 +291,7 @@ textarea:focus {
     border-radius: 0.15rem;
 }
 
-.form-input:first-child{
+.form-input:first-child {
     margin-top: 0;
 }
 
@@ -373,5 +374,48 @@ footer {
     .hamburger {
         display: none;
     }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    #about {
+        background-image: linear-gradient(180deg, #393e46ef 0%, #202020e1 100%), url(../assets/homebg.svg);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-text {
+        background: none;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .about-container{
+        width: 800px;
+    }
+
+    .project {
+        width: 44%;
+        min-height: 370px;
+    }
+
+    .project:first-of-type {
+        margin: 1rem
+    }
+
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
 
 }
