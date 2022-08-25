@@ -126,7 +126,7 @@ header {
 .about-text {
     padding: 2rem 1rem;
     font-weight: 300;
-    background-image: linear-gradient(180deg, #393e46ef 0%, #202020e1 100%), url(../assets/homebg.svg);
+    background-image: linear-gradient(180deg, #002928e8 0%, #09141be0 100%), url(../assets/homebg.svg);
     background-size: cover;
 }
 
@@ -170,7 +170,7 @@ h2 {
     gap: 2rem;
     justify-content: center;
     background-color: #00000091;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
 }
 
 .linked-git-icons a {
@@ -191,7 +191,7 @@ h2 {
     background-color: var(--main-gray);
     color: var(--main-light);
     padding-bottom: 0.5rem;
-    background: linear-gradient(0deg, rgba(57, 62, 70, 1) 0%, rgba(32, 32, 32, 1) 100%);
+    background: linear-gradient(0deg, rgba(57, 62, 70, 1) 0%, #09141b 100%);
 }
 
 h3 {
@@ -380,18 +380,22 @@ footer {
 @media screen and (min-width: 768px) {
 
     #about {
-        background-image: linear-gradient(180deg, #393e46ef 0%, #202020e1 100%), url(../assets/homebg.svg);
+        background-image: linear-gradient(180deg, #008684c4 0%, #b60e3885 100%), url(../assets/homebg.svg);
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     .about-text {
+        color: whitesmoke;
         background: none;
         padding: 2rem;
-        display: flex;
-        flex-direction: column;
         margin: 0 auto;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+
+    .cv {
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .about-container{
