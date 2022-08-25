@@ -126,7 +126,7 @@ header {
 .about-text {
     padding: 2rem 1rem;
     font-weight: 300;
-    background-image: linear-gradient(180deg, #002928e8 0%, #09141be0 100%), url(../assets/homebg.svg);
+    background-image: linear-gradient(180deg, #00504ede 0%, #4b0013b0 100%), url(../assets/homebg.svg);
     background-size: cover;
 }
 
@@ -170,7 +170,7 @@ h2 {
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
-    background-color: #09141bd6;
+    background-color: #09141b4f;
     backdrop-filter: blur(2px);
 }
 
@@ -408,6 +408,10 @@ footer {
         background-color: rgba(0, 0, 0, 0.5);
     }
 
+    .linked-git-icons {
+        background-color: #09141be5;
+    }
+
     .about-container {
         width: 800px;
     }
@@ -431,6 +435,10 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
+
+    h3 {
+        padding: 4rem 1rem 2.5rem ;
+    }
 
     .project, .project:first-of-type {
         width: 40%;
