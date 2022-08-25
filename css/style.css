@@ -149,6 +149,7 @@ h2 {
     width: fit-content;
     background-color: rgba(0, 0, 0, 0.349);
     font-weight: 500;
+    gap: 0.3rem;
 }
 
 .cv:hover {
@@ -169,7 +170,7 @@ h2 {
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
-    background-color: #00000091;
+    background-color: #09141bd6;
     backdrop-filter: blur(2px);
 }
 
@@ -192,6 +193,8 @@ h2 {
     color: var(--main-light);
     padding-bottom: 0.5rem;
     background: linear-gradient(0deg, rgba(57, 62, 70, 1) 0%, #09141b 100%);
+    box-shadow: 0 0 7px #000000bf;
+    position: relative;
 }
 
 h3 {
@@ -375,12 +378,17 @@ footer {
         display: none;
     }
 
+    h3 {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
 
     #about {
-        background-image: linear-gradient(180deg, #008684c4 0%, #b60e3885 100%), url(../assets/homebg.svg);
+        background-image: linear-gradient(180deg, #006866eb 0%, #b60e389e 100%), url(../assets/homebg.svg);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -398,7 +406,7 @@ footer {
         background-color: rgba(0, 0, 0, 0.5);
     }
 
-    .about-container{
+    .about-container {
         width: 800px;
     }
 
@@ -419,7 +427,4 @@ footer {
 
 }
 
-@media screen and (min-width: 992px) {
-
-
-}
+@media screen and (min-width: 992px) {}
