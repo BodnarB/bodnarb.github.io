@@ -269,6 +269,7 @@ h3 {
 
 form {
     width: 80%;
+    max-width: 720px;
     margin: 0 auto;
     padding-bottom: 1.5rem;
 }
@@ -349,7 +350,7 @@ footer {
     }
 
     .navbar {
-        padding: 0.4rem 0.8rem;
+        padding: 0.4rem 2rem;
     }
 
     .nav-menu {
@@ -379,8 +380,9 @@ footer {
     }
 
     h3 {
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: 300;
+        padding: 4rem 1rem 3.5rem;
     }
 
 }
@@ -388,7 +390,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     #about {
-        background-image: linear-gradient(180deg, #006866eb 0%, #b60e389e 100%), url(../assets/homebg.svg);
+        background-image: linear-gradient(180deg, #08d9d6d6 0%, #ff2e63b0 100%), url(../assets/homebg.svg);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -399,7 +401,7 @@ footer {
         background: none;
         padding: 2rem;
         margin: 0 auto;
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        text-shadow: 0 0 15px rgb(0 0 0 / 82%);
     }
 
     .cv {
@@ -410,13 +412,10 @@ footer {
         width: 800px;
     }
 
-    .project {
-        width: 44%;
+    .project, .project:first-of-type {
+        width: 45%;
         min-height: 370px;
-    }
-
-    .project:first-of-type {
-        margin: 1rem
+        margin: 1rem;
     }
 
     .projects-container {
@@ -425,6 +424,18 @@ footer {
         justify-content: center;
     }
 
+    #projects {
+        padding-bottom: 3.5rem;
+    }
+
 }
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    .project, .project:first-of-type {
+        width: 40%;
+        max-width: 640px;
+        margin: 2rem;
+    }
+
+}
