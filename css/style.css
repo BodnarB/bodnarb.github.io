@@ -159,6 +159,7 @@ h2 {
 .cv:hover {
     background-color: #181A20;
     transition-duration: 0.3s;
+    border: 1px solid #08d9d696;
 }
 
 .about-container {
@@ -427,7 +428,7 @@ footer p {
         background: none;
         padding: 2rem;
         margin: 0 auto;
-        text-shadow: 0 0 15px rgb(0 0 0 / 82%);
+        text-shadow: 0 0 10px rgb(0 0 0 / 90%);
     }
 
     .cv {
@@ -444,7 +445,7 @@ footer p {
     }
 
     .about-container {
-        width: 800px;
+        width: 995px;
     }
 
     .portrait {
@@ -478,16 +479,12 @@ footer p {
 
     .navbar {
         padding: 0.4rem 4rem;
-        max-width: 1480px;
+        max-width: 1580px;
         margin: 0 auto;
     }
 
-    .logo {
-        max-height: 38px;
-    }
-
     h1 {
-        font-size: 2.4rem;
+        font-size: 2.5rem;
         font-weight: 300;
         white-space: nowrap;
     }
