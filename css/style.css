@@ -419,7 +419,7 @@ footer p {
 @media screen and (min-width: 768px) {
 
     #about {
-        background-image: linear-gradient(180deg, #004c4bf0 0%, #858585d6 100%), url(../assets/homebg.svg);
+        background-image: linear-gradient(180deg, #004c4bf0 0%, #b6b6b6d6 100%), url(../assets/homebg.svg);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -430,7 +430,6 @@ footer p {
         background: none;
         padding: 2rem;
         margin: 0 auto;
-        text-shadow: 0 0 10px rgb(0 0 0 / 90%);
     }
 
     .cv {
@@ -443,7 +442,6 @@ footer p {
 
     .about-icons {
         height: 45px;
-        filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.445));
     }
 
     .about-container {
