@@ -244,6 +244,7 @@ h3 {
 
 .project-stack img {
     height: 30px;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.8));
 }
 
 .project-title-container {
@@ -441,7 +442,7 @@ footer p {
     }
 
     .about-icons {
-        height: 45px;
+        height: 35px;
     }
 
     .about-container {
