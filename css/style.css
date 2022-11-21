@@ -10,6 +10,8 @@
 html {
     font-family: 'Montserrat', sans-serif;
     user-select: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 53px;
 }
 
 body {
@@ -369,6 +371,10 @@ footer p {
 }
 
 @media screen and (min-width: 576px) {
+
+    html{
+        scroll-padding-top: 0;
+    }
 
     header {
         position: relative;
