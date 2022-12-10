@@ -151,7 +151,7 @@ h2 {
 .cv {
     display: flex;
     align-items: center;
-    border: 1px solid rgba(255, 255, 255, 0.616);
+    border: 2px solid rgba(255, 255, 255, 0.616);
     border-radius: 1rem;
     padding: 0.2rem 0.6rem;
     width: max-content;
@@ -159,12 +159,13 @@ h2 {
     font-weight: 500;
     gap: 0.3rem;
     white-space: nowrap;
+    transition-duration: 0.3s;
 }
 
 .cv:hover {
     background-color: #181A20;
     transition-duration: 0.3s;
-    border: 1px solid #08d9d696;
+    border: 2px solid #08d9d696;
 }
 
 .about-container {
@@ -192,11 +193,12 @@ h2 {
     height: 30px;
     fill: var(--main-light);
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.445));
+    transition-duration: 0.25s;
 }
 
 .about-icons:hover {
     fill: var(--main-color);
-    transition-duration: 0.2s;
+    transition-duration: 0.25s;
 }
 
 #projects {
@@ -268,6 +270,7 @@ h3 {
     font-weight: 500;
     margin-right: 0.5rem;
     white-space: nowrap;
+    transition-duration: 0.3s;
 }
 
 .project-links:hover {
