@@ -29,7 +29,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: var(--main-dark);
-    background: linear-gradient(270deg, rgba(32,32,32,1) 0%, rgba(37,42,52,1) 55%);
+    background: linear-gradient(270deg, rgba(32, 32, 32, 1) 0%, rgba(37, 42, 52, 1) 55%);
     color: rgb(233, 233, 233);
     box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.5);
 }
@@ -150,7 +150,7 @@ h2 {
 
 .cv {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     border: 2px solid rgba(255, 255, 255, 0.616);
     border-radius: 1rem;
     padding: 0.2rem 0.6rem;
@@ -338,13 +338,14 @@ textarea.form-input {
     color: var(--main-gray);
     padding: 0.5rem 1.5rem;
     font-weight: 500;
+    transition-duration: 0.35s;
 }
 
 .btn-submit:hover {
     background-color: var(--second-color);
     cursor: pointer;
     color: var(--main-light);
-    transition-duration: 0.3s;
+    transition-duration: 0.35s;
 }
 
 footer {
@@ -370,12 +371,13 @@ footer p {
 }
 
 .footer-link:hover {
+    transition-duration: 0.2s;
     color: var(--second-color);
 }
 
 @media screen and (min-width: 576px) {
 
-    html{
+    html {
         scroll-padding-top: 0;
     }
 
